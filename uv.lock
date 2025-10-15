@@ -1,0 +1,35 @@
+version = 1
+revision = 2
+requires-python = ">=3.13"
+
+[[package]]
+name = "archivos-planos-csv-json"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "tabulate2" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "tabulate2", specifier = ">=1.10.2" }]
+
+[[package]]
+name = "tabulate2"
+version = "1.10.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "wcwidth" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ac/c9/047f0049459e1310fe82c9668fd0d903f1e1f7cac7cfb3034a12f9f3fe9d/tabulate2-1.10.2.tar.gz", hash = "sha256:326277486a1cb83652014e42a51787588dcd0412dd92c6bd7b7650b2925d3085", size = 92663, upload-time = "2025-06-06T05:30:54.447Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/13/7f/ed37136b7287c6022cfba27351162cd6eb962eeaf00c1d24107a3a977eca/tabulate2-1.10.2-py3-none-any.whl", hash = "sha256:d54125bdf2e3206b52c6755c09c3483beb129f500d61cc8da4ea8dba39cd48b6", size = 65407, upload-time = "2025-06-06T05:30:52.58Z" },
+]
+
+[[package]]
+name = "wcwidth"
+version = "0.2.14"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/24/30/6b0809f4510673dc723187aeaf24c7f5459922d01e2f794277a3dfb90345/wcwidth-0.2.14.tar.gz", hash = "sha256:4d478375d31bc5395a3c55c40ccdf3354688364cd61c4f6adacaa9215d0b3605", size = 102293, upload-time = "2025-09-22T16:29:53.023Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/af/b5/123f13c975e9f27ab9c0770f514345bd406d0e8d3b7a0723af9d43f710af/wcwidth-0.2.14-py2.py3-none-any.whl", hash = "sha256:a7bb560c8aee30f9957e5f9895805edd20602f2d7f720186dfd906e82b4982e1", size = 37286, upload-time = "2025-09-22T16:29:51.641Z" },
+]
